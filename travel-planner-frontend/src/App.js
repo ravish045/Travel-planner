@@ -2,16 +2,7 @@ import React from 'react';
 
 // --- Helper Components ---
 
-const Loader = ({ size = 'md' }) => {
-    const sizeClasses = {
-        sm: 'w-6 h-6',
-        md: 'w-10 h-10',
-        lg: 'w-16 h-16'
-    };
-    return (
-        <div className={`loader border-4 border-gray-200 border-t-blue-500 rounded-full animate-spin ${sizeClasses[size]}`}></div>
-    );
-};
+
 
 const IconInput = ({ icon, ...props }) => (
     <div className="relative">
