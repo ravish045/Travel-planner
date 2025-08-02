@@ -7,11 +7,16 @@ A full-stack MERN application that leverages the power of Google's Gemini genera
 [Live Demo Link] <https://travel-planner-ravish.netlify.app/>
 
 Features
-AI-Powered Itinerary Generation: Automatically creates a detailed, day-by-day schedule of activities for your trip.
 
-Smart Packing Lists: Generates a categorized checklist of items to pack based on your destination and trip duration.
+-> AI-Powered Itinerary Generation: Automatically creates a detailed, day-by-day schedule of activities for your trip.
 
-Accommodation Suggestions: Provides a list of recommended hotels and hostels with descriptions.
+-> Smart Packing Lists: Generates a categorized checklist of items to pack based on your destination and trip duration.
+
+-> Accommodation Suggestions: Provides a list of recommended hotels and hostels with descriptions.
+
+-> Interactive UI: A clean, modern, and responsive user interface built with React and styled with Tailwind CSS.
+
+-> Printable Plans: Users can easily print or save their generated travel plan as a PDF.
 
 Interactive UI: A clean, modern, and responsive user interface built with React and styled with Tailwind CSS.
 
