@@ -4,7 +4,6 @@ AI Travel Planner
 
 A full-stack MERN application that leverages the power of Google's Gemini generative AI to create personalized and comprehensive travel plans. Users can simply input their destination and travel dates to instantly receive a detailed itinerary, a smart packing checklist, and accommodation suggestions.
 
-[Live Demo Link] <https://travel-planner-ravish.netlify.app/>
 
 Features
 
@@ -21,6 +20,8 @@ Features
 Interactive UI: A clean, modern, and responsive user interface built with React and styled with Tailwind CSS.
 
 Printable Plans: Users can easily print or save their generated travel plan as a PDF.
+
+[Live Demo Link] <https://travel-planner-ravish.netlify.app/>
 
 Tech Stack
 This project is built with the MERN stack and integrates with the Google Gemini API.
