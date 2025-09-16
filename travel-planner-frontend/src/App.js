@@ -137,8 +137,7 @@ export default function App() {
     setPlan(null);
 
     try {
-     const backendUrl = "https://your-render-backend-url.onrender.com";
-
+      const backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000';
 
       const response = await fetch(`${backendUrl}/api/generate-plan`, {
         method: 'POST',
