@@ -137,13 +137,14 @@ export default function App() {
     setPlan(null);
 
     try {
-      const backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000';
+      const backendUrl = "https://travel-planner-backend-ravish.onrender.com";
 
-      const response = await fetch(`${backendUrl}/api/generate-plan`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ destination, startDate, endDate }),
-      });
+const response = await fetch(`${backendUrl}/api/generate-plan`, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ destination, startDate, endDate }),
+});
+
 
       if (!response.ok) throw new Error(`Backend error: ${response.statusText}`);
 
