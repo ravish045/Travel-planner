@@ -115,7 +115,7 @@ const PlannerForm = ({ onGenerate, loading }) => {
 const OutputDisplay = ({ plan }) => {
   if (!plan) return null;
 
-  const printPlan = () => window.print();
+
 
   return (
     <div className="space-y-8 animate-fade-in">
